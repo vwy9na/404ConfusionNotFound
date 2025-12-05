@@ -15,8 +15,9 @@ body {
 	margin-bottom: 20px;
 }
 .site-title h1 {
-	font-family: "Copperplate", "Copperplate Gothic Light", fantasy;
+	font-family: Arial, sans-serif;
 	font-size: 3rem;
+	font-weight: 700;
 	color: #B266FF;
 	letter-spacing: 2px;
 	text-shadow:
@@ -122,4 +123,5 @@ main {
 
 
 	
+
 
