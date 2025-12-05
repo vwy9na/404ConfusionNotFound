@@ -23,14 +23,24 @@ body {
 		0 0 3px #B266FF;
 }
 table {
-	margin: 1em;
-	border: 2px solid: #000066;
+	margin: 20px auto;
+	width: 80%;
 	border-collapse: collapse;
 }
 th,
 td {
-	padding: .5em;
-	border: 1px solid #000066;
+	padding: 10px 15px;
+	border: 1px solid #444;
+}
+table tr:nth-child(even) {
+	background-color: #2A2A2A;
+}
+table tr:nth-child(odd) {
+	background-color: #1A1A1A;
+}
+table tr:first-child {
+	background-color: #333 !important;
+	font-weight: bold;
 }
 nav {
 	margin-bottom: 20px;
@@ -110,5 +120,6 @@ main {
 	display: flex;
 	justify-content: center;
 }
+
 
 	
