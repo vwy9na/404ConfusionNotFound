@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, sans-serif;
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+.site-title {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.site-title h1 {
+	font-family: "Copperplate". "Copperplate Gothic Light", fantasy;
+	font-size: 3rem;
+	color: #B266FF;
+	letter-spacing: 2px;
+	text-shadow:
+		0 0 3px #B266FF;
+}
+table {
+	margin: 1em;
+	border: 2px solid: #000066;
+	border-collapse: collapse;
+}
+th,
+td {
+	padding: .5em;
+	border: 1px solid #000066;
+}
+nav {
+	margin-bottom: 20px;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	font-size: 1.5em;
+	gap: 10px;
+}
+nav li {}
+nav a {
+	display: block;
+	padding: 12px 18px;
+	text-decoration: none;
+	color: white !important;
+	font-weight: bold;
+	border-radius: 6px;
+}
+nav a.home {
+	background-color: #FF6B6B;
+}
+nav a.about {
+	background-color: #4ECDC4;
+}
+nav a.content {
+	background-color: #1A535C;
+}
+nav a.resources {
+	background-color: #FFA600;
+}
+nav a.feedback {
+	background-color: #6A4C93;
+}
+nav a:hover {
+	color: #BFBFBF;	
+	opacity: .85;
+}
+main {
+	background-color: transparent !important;
+	padding: 20px;
+	border-radius: 6px;
+	box-shadow: none !important;
+}
+.box-container {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	margin-top: 30px;
+	background-color: #B3B3B3;
+	padding: 30px;
+	border-radius: 10px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.link-box {
+	display: block;
+	background-color: #E0E0E0;
+	border: 2px solid #B3B3B3;
+	padding: 20px 30px;
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: bold;
+	border-radius: 10px;
+	text-decoration: none;
+	color: black;
+	width: 250px;
+	transition: .3s;
+}
+.link-box:hover {
+	background-color: #D0D0D0;	
+	transform: scale(1.05);
+}
+.video-wrapper {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+	
